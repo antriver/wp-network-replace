@@ -4,7 +4,7 @@
  * Plugin Name: Network Replace
  * Version: 1.0.0
  * Plugin URI: https://github.com/antriver/wp-network-replace
- * Description: Custom regexp search and replace contents.
+ * Description: Automatically replace text in posts across the Wordpress Multisite installation.
  * Author: Anthony Kuske
  * Author URI: http://www.anthonykuske.com
  */
