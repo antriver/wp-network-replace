@@ -112,7 +112,6 @@ function network_replace_replace($find, $replace, $content)
 function network_replace_content_filter($content)
 {
     $replacements = network_replace_get_replacements();
-    var_dump($replacements);
 
     foreach ($replacements as $find => $replace) {
         $content = network_replace_replace($find, $replace, $content);
