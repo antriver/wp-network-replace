@@ -82,7 +82,9 @@ function network_replace_display_options()
 function network_replace_get_replacements()
 {
     if ($options = get_site_option('network_replace_replacements')) {
-        return json_decode($options);
+        if ($replacements = json_decode($options)) {
+            return $replacements;
+        }
     }
 
     return [];
